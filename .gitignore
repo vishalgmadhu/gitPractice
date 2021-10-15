@@ -1,0 +1,7 @@
+error.log
+file.text
+file.txt
+secondfile.txt
+ignored files/
+*.log
+myDB.accdb

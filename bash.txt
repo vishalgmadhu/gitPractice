@@ -1,0 +1,20 @@
+Command lines for git:
+
+rm -rf .git = to remove git repositories from folder
+pwd = present working directory
+ls = list content
+cd = change directory
+touch name.type = creates blank file
+.gitignore = blank file created with touch which ignores the file filename written in it
+git diff = shows difference b/w uncommit/unstagged area and working directory
+git diff --staged = shows difference b/w commit/stagged area and working directory
+git commit -a -m "message" = skips the "staging" part and directly commits the file
+git rm filename.type (works after commit) = removes file from directory
+git rm --cached filename.type = removes file that are not easily removed from directory
+git mv original_file.type new_file.type = moves as well as renames file
+git log = shows all your commits
+git log -p = shows difference/changes in commit
+git log -p -(number) = shows difference/change in n no. of commits
+git log --pretty=oneline = shows commits and message
+git log --pretty=short = shows commit, authorName and message
+git log --pretty=full = shows commit, authorName, person who commited it, and message
