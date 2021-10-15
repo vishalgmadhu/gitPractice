@@ -20,3 +20,5 @@ git log --pretty=short = shows commit, authorName and message
 git log --pretty=full = shows commit, authorName, person who commited it, and message
 git restore <file>... = to discard changes in working directory
 git restore --staged <file>... = to unstage the staged file
+git checkout -- <file>... = to match working directory with last commit which will remove changes made recently
+git checkout -f = to match all the files/working directories with last commit which will remove changes made recently
