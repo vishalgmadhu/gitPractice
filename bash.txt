@@ -18,3 +18,5 @@ git log -p -(number) = shows difference/change in n no. of commits
 git log --pretty=oneline = shows commits and message
 git log --pretty=short = shows commit, authorName and message
 git log --pretty=full = shows commit, authorName, person who commited it, and message
+git restore <file>... = to discard changes in working directory
+git restore --staged <file>... = to unstage the staged file
